@@ -1,0 +1,50 @@
+//Sridhar Sreenivasan
+//24070123113
+//B1
+
+#include <iostream> 
+#include <cstring> 
+using namespace std; 
+int main() {
+    int i;
+    float f;
+    double d;
+    char c;
+    char s[100];
+    cout << "Enter an integer: ";
+    cin >> i;
+    cout << "Enter a float: ";
+    cin >> f;
+    cout << "Enter a double: ";
+    cin >> d;
+    cout << "Enter a character: ";
+    cin >> c;
+    cout << "Enter a string: ";
+    cin >> s;
+   
+
+    cout << "Integer: " << i << ", Size: " << sizeof(i) << " bytes\n";
+    cout << "Float: " << f << ", Size: " << sizeof(f) << " bytes\n";
+    cout << "Double: " << d << ", Size: " << sizeof(d) << " bytes\n";
+    cout << "Character: " << c << ", Size: " << sizeof(c) << " bytes\n";
+    cout << "String: " << s << ", Size: " << sizeof(s) << " bytes\n";
+
+    return 0;
+}
+
+
+/*
+OUTPUT
+Enter an integer: 5
+Enter a float: 23.567
+Enter a double: 45.2
+Enter a character: s
+Enter a string: sri
+Integer: 5, Size: 4 bytes
+Float: 23.567, Size: 4 bytes
+Double: 45.2, Size: 8 bytes
+Character: s, Size: 1 bytes
+String: sri, Size: 100 bytes
+*/
+
+
